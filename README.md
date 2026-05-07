@@ -39,7 +39,7 @@ so you can set reminder
 ### frontend:
 * React 
 ### backend:
-* Python (Flask or FastAPI)
+* Node+Express+MongoDB
 ### database:
 * stores users + transactions (we will try to implement it)
 also some Ai logic for understanding sentences (not very advanced)
