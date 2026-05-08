@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: black;
+}
+
+.navbar h2 {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: lightblue;
+}
+
+.login-nav-btn {
+  padding: 8px 16px;
+
+  border: none;
+
+  background-color: white;
+  color: black;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+  font-weight: bold;
+}
+
+.login-nav-btn:hover {
+  background-color: lightgray;
+}
