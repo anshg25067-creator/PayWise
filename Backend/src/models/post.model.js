@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const noteSchema = new mongoose.Schema({
-    title: String,
-    content: String,
+    username:String,
+    amount:Number,
+    ispaid:Boolean
 });
 const noteModel = mongoose.model("note", noteSchema);
 module.exports = noteModel;
