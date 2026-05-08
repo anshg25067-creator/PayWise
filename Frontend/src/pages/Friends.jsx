@@ -1,6 +1,13 @@
 import "../styles/friends.css"
 
 function Friends() {
+  return (
+    <div className="page">
+      <h1>Friends Page</h1>
+      <p>Friends page content goes here.</p>
+    </div>
+  )
+
   // Mock data: Replace this array with your fetched backend data later
   const mockFriends = [
     { id: 1, name: "Alice Smith", username: "@alice_s", image: "https://i.pravatar.cc/150?u=1" },

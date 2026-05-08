@@ -1,4 +1,6 @@
 .page h1 {
+
+  margin-bottom: 10px;
   font-size: 60px;
 }
 
@@ -190,7 +192,6 @@ margin-top: 50px;
   margin: 20px 0;
 }
 
-/*  */
 
 
 
@@ -258,7 +259,6 @@ margin-top: 50px;
   box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
   overflow: hidden;
 
-  /* 👇 Add these two lines to fix the scrolling */
   display: flex;
   flex-direction: column;
 }

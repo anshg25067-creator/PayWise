@@ -1,4 +1,7 @@
 
+.page h1 {
+  margin-bottom: 10px;
+
 /* Container adjustments to match your overall layout */
 .friends_page {
   padding: 40px; 

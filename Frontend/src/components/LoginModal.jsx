@@ -4,21 +4,24 @@ function LoginModal({ closeModal }) {
   return (
     <div className="modal-overlay">
       <div className="modal-box">
+        <h1 className="top">Hello! </h1>
+        <p className="started">Sign In to get started</p>
 
         <button className="close-btn" onClick={closeModal}>
           X
         </button>
 
-        <h2>Login</h2>
+        <h2 className="log">Login</h2>
 
-        <input type="text" placeholder="Enter email" />
+        <input type="text" placeholder="👤 Username" />
 
-        <input type="password" placeholder="Enter password" />
+        <input type="password" placeholder="🔒 Password" />
 
         <button className="login-btn">
-          Login
+          Log In
         </button>
 
+        <button className="register">Register</button>
       </div>
     </div>
   )
