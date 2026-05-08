@@ -37,15 +37,17 @@ function Home() {
                 💁🏻‍♂️
               </div>
               <h3>Aditya Sahu</h3>
-              <p>Auto-categorize every expense effortlessly.</p>
+              <p>
+                Built the Home & Login interface with a smooth and modern user experience.
+              </p>
             </div>
 
             <div className="feature-card">
               <div className="icon">
-                👴🏼
+                👱🏼‍♂️
               </div>
               <h3>Rohit Raj</h3>
-              <p>Know exactly where your money goes.</p>
+              <p>Designed the Dashboard and Create Account pages for seamless expense management.</p>
             </div>
 
             <div className="feature-card">
@@ -53,7 +55,7 @@ function Home() {
                 🧔🏻
               </div>
               <h3>Ansh Gupta</h3>
-              <p>Bank-grade encryption for your peace of mind.</p>
+              <p>Handled backend development and database integration for secure functionality.</p>
             </div>
           </div>
           
