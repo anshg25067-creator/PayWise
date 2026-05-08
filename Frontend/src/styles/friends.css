@@ -1,0 +1,96 @@
+
+/* Container adjustments to match your overall layout */
+.friends_page {
+  padding: 40px; 
+}
+
+.friends_header h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+/* --- Search Bar Styling --- */
+.search_bar_container {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  
+  /* Matches your clean, bordered aesthetic */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+.search_input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search_btn {
+  padding: 15px 30px;
+  border: none;
+  
+  /* Matches your chatbot button colors */
+  background-color: black;
+  color: white;
+  
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Reuse your horizontal line style if it's not already global */
+.horizontal_line {
+  height: 1px;
+  background-color: black;
+  margin: 30px 0;
+}
+
+/* --- Friends Grid & Cards --- */
+.friends_grid {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px;
+
+  /* 👇 Add this line to center the cards with equal space left and right */
+  justify-content: center; 
+}
+
+/* The rest of your CSS stays exactly the same */
+.friend_card {
+  width: 280px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15); 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+}
+
+.friend_avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.friend_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend_details h3 {
+  margin: 0;
+  font-size: 20px;
+  color: black;
+}
+
+.friend_details p {
+  margin: 5px 0 0 0;
+  font-size: 15px;
+  color: gray;
+}
