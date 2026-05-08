@@ -22,11 +22,8 @@ function LoginModal({ closeModal }) {
         </button>
 
         <button className="register">Register</button>
-
- 
       </div>
     </div>
-    
   )
 }
 

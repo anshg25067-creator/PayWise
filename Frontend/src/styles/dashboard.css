@@ -1,3 +1,317 @@
 .page h1 {
+
   margin-bottom: 10px;
+  font-size: 60px;
+}
+
+.main_content{
+padding-left: 430px; 
+  padding-right: 40px;
+  padding-top: 0px;
+  display: block;
+}
+
+.sidebar {
+ 
+position: fixed;
+  left: 40px;
+  top: 72px;
+  width: 350px;
+  height: 100vh; 
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  overflow-y: auto; 
+  padding-top: 40px; 
+  padding-bottom: 70px;
+  
+}
+
+.profile {
+  position: relative;
+  left: 10px;
+  top: 30px;
+  width: 300px;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+.profile_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+/* chatbot card */
+
+.chatbot_card {
+  position: fixed; 
+  bottom: 80px;    
+  left: 40px;      
+  
+  width: 320px;
+  height: 380px;
+
+  background-color: white;
+  border-radius: 15px;
+
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.chatbot_header {
+  background-color: black;
+  color: white;
+
+  padding: 15px;
+}
+
+.chatbot_body {
+  padding: 20px;
+
+  height: 100%;
+
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chatbot_input_section {
+  display: flex;
+  margin-top: auto;
+  border-top: 1px solid #ddd;
+}
+
+.chatbot_input_section input {
+  flex: 1;
+
+  padding: 12px;
+
+  border: none;
+
+  outline: none;
+}
+
+.chatbot_input_section button {
+  padding: 12px 18px;
+
+  border: none;
+
+  background-color: black;
+  color: white;
+
+  cursor: pointer;
+}
+/*  */
+
+/* main_bar */
+
+/* .main_bar{
+  
+} */
+.all_cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+/* card to give to get */
+.to_card {
+
+  width: 400px;
+  height: 500px;
+
+  background-color: white;
+
+  border-radius: 15px;
+
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card_header {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+/*  */
+
+/* history */
+.history{
+margin-top: 50px;
+
+  width: 840px; /* 400 + 400 + gap */
+  height: 500px;
+
+  background-color: white;
+
+  border-radius: 15px;
+
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+  overflow: hidden;
+
+}
+
+.history_header{
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+
+
+
+/* line down the heading */
+.horizontal_line {
+
+  height: 1px;
+
+  background-color: black;
+
+  margin: 20px 0;
+}
+
+
+
+
+/* list */
+.card_list_body {
+  flex: 1; 
+  overflow-y: auto; 
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.friend_name {
+  flex: 1; 
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.amount_give {
+  flex: 1;
+  text-align: right; 
+  color: #d93025;
+  font-weight: bold;
+}
+
+.amount_get {
+  flex: 1;
+  text-align: right; 
+  color: #1e8e3e;
+  font-weight: bold;
+}
+
+/* Reminder button */
+.remind_btn {
+  padding: 6px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.remind_btn:hover {
+  background-color: #333;
+}
+
+.history {
+  margin-top: 50px;
+  width: 840px; 
+  height: 500px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Form Layout*/
+.transaction_form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px; 
+}
+
+
+.form_group input,
+.form_group select {
+  width: 100%;
+  box-sizing: border-box; 
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+
+.form_group select:invalid {
+  color: #757575; 
+}
+
+
+.form_group input:focus,
+.form_group select:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+
+.chatbot_submit_btn {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #000000; 
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.chatbot_submit_btn:hover {
+  
+    transform: scale(1.05);
+  transition: 0.2s ease;
 }

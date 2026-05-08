@@ -1,6 +1,10 @@
+
 import "../styles/home.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "../styles/home.css"
+import { useState } from "react"
+
 
 function Home() {
   return (
@@ -67,3 +71,12 @@ function Home() {
 }
 
 export default Home;
+
+      <h1>Home Page</h1>
+      <p>Landing page content goes here.</p>
+    </div>
+  )
+}
+
+export default Home
+
